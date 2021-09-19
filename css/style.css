@@ -203,16 +203,28 @@ header .icons #menu-bars {
     line-height: 1.5;
 }
 
+.swiper-pagination-bullet-active {
+    background: var(--green);
+}
+
+
+
+
+
 
 
 /* MEDIA QUERIES */
 @media (max-width: 991px) {
     html {
-        font-size: 50%;
+        font-size: 55%;
     }
 
     header {
         padding: 1rem 2rem;
+    }
+
+    section {
+        padding: 2rem;
     }
 }
 
@@ -249,4 +261,25 @@ header .icons #menu-bars {
         width: 90%;
         margin: 0 1rem;
     }
+
+    .home .home-slider .slide .content h3 {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .dishes .box-container .box img{
+        height:auto;
+        width: 100%;
+    }
+
+    .order form .inputBox .input{
+        width:100%;
+    }
+
 }

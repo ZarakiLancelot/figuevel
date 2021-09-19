@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIGUEVEL</title>
 
+    <!-- Swipe -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -43,9 +46,9 @@
 
     <!-- Section Home -->
     <section class="home" id="home">
-        <div class="home-slider">
-            <div class="wrapper">
-                <div class="slide">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
                     <div class="content">
                         <span>Nuestros platillos especiales</span>
                         <h3>Espaguetti</h3>
@@ -57,7 +60,7 @@
                     </div>
                 </div>
 
-                <div class="slide">
+                <div class="swiper-slide slide">
                     <div class="content">
                         <span>Nuestros platillos especiales</span>
                         <h3>Pollo Ahumado</h3>
@@ -69,7 +72,7 @@
                     </div>
                 </div>
 
-                <div class="slide">
+                <div class="swiper-slide slide">
                     <div class="content">
                         <span>Nuestros platillos especiales</span>
                         <h3>Pizza</h3>
@@ -81,10 +84,16 @@
                     </div>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
     <!-- Section Home -->
 
+
+    <!-- Swipe -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- JS -->
     <script src="./js/script.js"></script>
 </body>
 </html>
